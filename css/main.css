@@ -1,0 +1,10 @@
+h1 {
+    color: red;
+  }
+
+img.headder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+  }
