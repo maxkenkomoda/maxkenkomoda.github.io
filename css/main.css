@@ -85,14 +85,37 @@ img.picture {
     display: block;
     display: inline-block;
 
-  }
+}
 
 .ed-back ul {
     padding: 0px;
     text-align: left;
     list-style: none;
     display: inline-block;
-  }
+}
+
+.skills {
+    display: flex;
+}
+
+.card {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background: #DDDDDD;
+  position: relative;
+  border: solid 2px #C0C0C0;
+}
+
+.card-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  max-width: 90%;
+  margin: auto;
+}
 
 /*For Small Display*/
 @media(max-width: 768px){
