@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DDDDDD;
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+
+
+img.headder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.self-top {
+    text-align: center;
+}
+
+img.profile-img {
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.picture {
+    width: 300px;
+}
+
+.skill-img {
+    width: 100px;
+}
+
+img.work-images {
+    width: 200px;
+  }
+
+@media(max-width: 768px){
+
+
+
+
+
+
+
+
+}
