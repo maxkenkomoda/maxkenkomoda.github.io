@@ -1,29 +1,34 @@
 @charset "UTF-8";
-
+/*
 body {
     margin: 0;
     padding: 0;
-    background-color: #DDDDDD;
+    background-color: white;
     font-family:'メイリオ', 'Meiryo', sans-serif;
 }
 
+p {
+    max-width: 1200px;
+  }
 
-img.headder {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+img.header {
     width: 100%;
 }
 
+
 .self-top {
     text-align: center;
+    height: 250px;
 }
 
 img.profile-img {
     margin-top: 20px;
+    margin: auto;
     height: 300px;
     width: 300px;
 }
+
+
 
 .picture {
     width: 300px;
@@ -37,13 +42,37 @@ img.work-images {
     width: 200px;
   }
 
-@media(max-width: 768px){
 
+	/* display > 768px CSS（For Tablet） */
+/*@media screen and (max-width: 767px) {
+  .main {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  img.profile-img {
+    margin: auto;
+    margin-top: 20px;
+    height: 224px;
+    width: 224px;
+  } 
 
+}
+	/* display > 480p CSS（For SmartPhone） */
+/*@media screen and (max-width: 480px) {
+    .main {
+        margin: 0 auto;
+        max-width: 340px;
+    }
+    
+    p {
+        max-width: 340px;
+    }
 
-
-
-
-
-
+    img.profile-img {
+        margin: auto;
+        margin-top: 20px;
+        height: 122px;
+        width: 122px;
+    } 
 }
