@@ -146,26 +146,18 @@ p.about-future {
     margin-top: 10px;
 }
 
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 .card {
-    width: 150px;
+    width: 20%;
     text-align: center;
 }
-.main-skills {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.sub-skills {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .skill-img {
-    width: 100px;
+    width: 80%;
 }
 
 img.work-images {
