@@ -1,0 +1,390 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+
+.main {
+    margin: auto;
+    max-width: 70%;
+}
+
+header {
+    margin: auto;
+    width: 70%;
+  }
+
+img.header {
+    width: 100%;
+}
+
+.self-top {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img.profile-img {
+    margin-top: 20px;
+    margin: auto;
+    width: 25%;
+}
+
+h1.my-name {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 35px;
+
+}
+
+.self-top p {
+    text-align: left;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 70%;
+    font-size: 18px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #808080;
+    font-weight: lighter;
+    border-bottom: 1px solid  #808080;
+}
+
+/* about me css------------------------------------------- */
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-me-card {
+    margin-bottom: 20px;
+    border: 1px solid  #808080;
+    width: 48%;
+}
+
+.about-me p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.about-me-card article {
+    margin: auto;
+    width: 90%;
+}
+
+.about-me h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid  #808080;
+} 
+
+
+.card-img {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.picture {
+    margin: 0px;
+    width: 100%;
+}
+
+p.img-description {
+    margin: 0px; 
+    font-size: 12px;
+    text-align: left;
+}
+
+/* history css ------------------------------------------- */
+.ed-back p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+p.sub-event {
+    margin-top: 10px;
+    font-size: 14px; 
+}
+
+p.year {
+    margin-bottom: 0px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p.action {
+    margin-top: 0px;
+}
+
+/* skills css -------------------------------------------- */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.card {
+    width: 20%;
+    text-align: center;
+}
+
+.skill-img {
+    width: 60%;
+}
+
+img.work-images {
+    width: 200px;
+}
+
+
+	/* display > 768px CSS（For Tablet）--------------------------------------- */
+@media screen and (max-width: 959px) {
+    .main {
+        margin: auto;
+        max-width: 90%;
+    }
+
+    header {
+        margin: auto;
+        width: 100%;
+      }
+
+    img.header {
+        width: 100%;
+    }
+
+    .self-top {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    img.profile-img {
+        margin-top: 20px;
+        margin: auto;
+        width: 30%;
+    }
+
+    h1.my-name {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .self-top p {
+        text-align: left;
+        margin: auto;
+        margin-bottom: 10px;
+        max-width: 1200px;
+        width: 70%;
+        font-size: 16px;
+    }
+
+    h2 {
+        margin-top: 30px;
+        color: #808080;
+        font-weight: lighter;
+        border-bottom: 1px solid  #808080;
+    }
+
+/* about me css------------------------------------------- */
+    .about-me-card {
+        margin-bottom: 20px;
+        border: 1px solid  #808080;
+        width: 100%;
+    }
+
+    .about-me-card article {
+        margin: auto;
+        width: 90%;
+        height: 90%;
+    }
+
+    .about-me h3 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid  #808080;
+        font-weight: bold;
+    } 
+
+    .about-me p {
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
+
+    .card-img {
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .picture {
+        margin: 0px;
+        width: 100%;
+    }
+
+    p.img-description {
+        margin: 0px; 
+        font-size: 10px;
+        text-align: left;
+    }
+/* history css ------------------------------------------- */
+    .ed-back p {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    p.sub-event {
+        margin-top: 10px;
+        font-size: 12px; 
+    }
+
+    p.year {
+        margin-bottom: 0px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    p.action {
+        margin-top: 0px;
+    }
+}
+	/* display > 480p CSS（For SmartPhone）-------------------------------------- */
+@media screen and (max-width: 480px) {
+    .main {
+        margin: auto;
+        max-width: 90%;
+    }
+    .self-top {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%
+    }
+
+    img.profile-img {
+        margin-top: 10px;
+        margin: auto;
+        width: 50%;
+    }
+
+    h1.my-name {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 20px;
+
+    }
+
+    .self-top p {
+        width: 100%;
+        text-align: left;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 16px;
+    }
+
+    h2 {
+        margin-top: 10px;
+        color: #808080;
+        font-weight: lighter;
+        border-bottom: 1px solid  #808080;
+    }
+
+    /* about me css------------------------------------------- */
+    .about-me-card {
+        margin-bottom: 20px;
+        border: 1px solid  #808080;
+        width: 100%;
+    }
+
+    .about-me p {
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
+
+    .about-me-card article {
+        margin: auto;
+        width: 90%;
+    }
+
+    .about-me h3 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid  #808080;
+        font-size: 18px;
+        font-weight: bold;
+    } 
+
+
+    .card-img {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .picture {
+        margin: 0px;
+        width: 100%;
+    }
+
+    p.img-description {
+        margin: 0px; 
+        font-size: 10px;
+        text-align: left;
+    }
+
+    /* history css ------------------------------------------- */
+    .ed-back p {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    p.sub-event {
+        margin-top: 5px;
+        font-size: 12px; 
+    }
+
+    p.year {
+        margin-bottom: 0px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    p.action {
+        margin-top: 0px;
+    }
+
+    /* skills css -------------------------------------------- */
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+    .card {
+        width: 20%;
+        text-align: center;
+    }
+
+    .skill-img {
+        width: 60%;
+    }
+
+    img.work-images {
+        width: 200px;
+    }
+}
