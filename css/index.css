@@ -12,12 +12,21 @@ body {
     max-width: 70%;
 }
 
- p {
+p {
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-weight: lighter;
     margin-bottom: 10px;
 }
+
+
+li {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
 header {
     margin: auto;
     width: 70%;
@@ -180,9 +189,16 @@ img.work-images {
         max-width: 90%;
     }
 
-    .about-me p {
+    p {
         font-size: 16px;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
+    
+    li {
+        font-size: 16px;
+        letter-spacing: 0.5px;
         font-weight: lighter;
         margin-bottom: 10px;
     }
@@ -317,11 +333,17 @@ img.work-images {
     
     p {
         font-size: 14px;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
         font-weight: lighter;
         margin-bottom: 10px;
     }
     
+    li {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
     .self-top {
         text-align: center;
         margin-top: 10px;
