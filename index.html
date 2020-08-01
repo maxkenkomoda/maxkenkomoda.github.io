@@ -12,24 +12,33 @@
     </head>
     <body>
 <!--========================== header ==================================================== -->
-        <header>
+        <header id='top'>
             <img src='./images/Pano.jpg' class='header' alt='headder'>
         </header>
         <div class='main'>
+            <div id='nav-top'>
+                <ul>
+                    <li><a href='#top'>TOP</a></li>
+                    <li><a href='#about-me'>ABOUT ME</a></li>
+                    <li><a href='#skills'>SKILLS</a></li>
+                    <li><a href='#works'>WORKS</a></li>
+                    <li><a href='#contact'>CONTACT / LINK</a></li>
+                </ul>
+            </div>
 <!--========================== profile picture and self introduce ==================================================== -->
             <div class='self-top'>
                 <img src='./images/portfolio.png' class='profile-img' alt='profile.img'>
                 <h1 class='my-name'>薦田 顕/Ken Komoda</h1>
-                <p>初めまして、薦田顕(こもだ　けん）と申します。</br> ソフト・ハード関係なくものづくり大好きです。</br> 目の前の課題・問題を自分の知識や経験で解決することが大好きです。</p> 
+                <p>初めまして、薦田顕(こもだ　けん）と申します。<br> ソフト・ハード関係なくものづくり大好きです。<br> 目の前の課題・問題を自分の知識や経験で解決することが大好きです。</p> 
             </div> 
 <!--========================== About me ==================================================== -->
-            <h2>ABOUT ME</h2>
+            <h2 id='about-me'>ABOUT ME</h2>
             <div class='about-me'>
             <!--========================== soft story ==================================================== -->
                 <div class='about-me-card'>
                     <article class='soft'>
                     <h3>ものづくり大好き:ソフト編</h3>
-                        <p class='card-body'>学生時代にMinecraftというゲームでブロックをPythonを使って自動で積み上げる簡単なプログラムを作って以来ハマってます。</br>現在ではRuby on Railsを利用したWebサービスを開発・運用しております。</p>
+                        <p class='card-body'>学生時代にMinecraftというゲームでブロックをPythonを使って自動で積み上げる簡単なプログラムを作って以来ハマってます。<br>現在ではRuby on Railsを利用したWebサービスを開発・運用しております。</p>
                         <div class='card-img'>
                             <img src='./images/develop.png' class='picture' alt='開発風景'>
                             <p class='img-description'>Vimでの開発風景</p>
@@ -40,7 +49,7 @@
                 <div class='about-me-card'>
                     <article class='hard'>
                     <h3>ものづくり大好き:ハード編</h3>
-                        <p class='card-body'>物心ついた頃から周りの物を分解・修理・破壊する等、ものいじりが大好きでした。</br>現在でもパソコン自作したり、自転車整備、ゲーム機など日用品の改造・修理等しております。</p>
+                        <p class='card-body'>物心ついた頃から周りの物を分解・修理・破壊する等、ものいじりが大好きでした。<br>現在でもパソコン自作したり、自転車整備、ゲーム機など日用品の改造・修理等しております。</p>
                         <div class='card-img'>
                             <img src='./images/building_bike.jpg' class='picture' alt='自転車整備中'>
                             <p class='img-description'>自転車の組み立て風景</p>
@@ -51,7 +60,7 @@
                 <div class='about-me-card'>
                     <article class='hobby'>
                     <h3>趣味</h3>
-                        <p class='card-body'>自転車、ドライブ、カメラ、料理...など多趣味で、学生時代は自転車でヨーロッパのアルプス地方を中心に放浪してました。</br>人生の目標はヨーロッパアルプスの峠全制覇です。現在の進歩率は2%ぐらいです。まだまだ遠い道のりです。</p>
+                        <p class='card-body'>自転車、ドライブ、カメラ、料理...など多趣味で、学生時代は自転車でヨーロッパのアルプス地方を中心に放浪してました。<br>人生の目標はヨーロッパアルプスの峠全制覇です。現在の進歩率は2%ぐらいです。まだまだ遠い道のりです。</p>
                         <div class='card-img'>
                             <img src='./images/GG1.jpg' class='picture' alt='Alpen'>
                             <p class='img-description'>アルプスツーリングでの1枚</p>
@@ -69,14 +78,17 @@
                         <p class='action'> - 立命館大学経営学部卒</p>
                         <p class='sub-event'>※在学中に1年間ドイツの</br>Julius-Maximilians-Universität Würzburgに留学</p>
                         <p class='year'>2019年</p>
-                        <p class='action'> - 株式会社小田原エンジニアリング 営業部(在職)</p>
+                        <p class='action'> - 産業用機械製造メーカー　営業部に就職　(在職)</p>
                         <p class='year'>これから</p>
                         <p class='card-body'>ものづくりに関わりたいと思い、製造業の営業に新卒で入社しました。しかし、ものづくりに間接的に関わる営業よりも、直接自分で物やサービスを作れるエンジニアになりたいと思っています!!</p>
                     </article>
                 </div>
             </div>
 <!--========================== Skills  ==================================================== -->
-            <h2>SKILLS</h2>
+            <h2 id='skills'>SKILLS</h2>
+            <div class='control-guide'>
+                <p>下の画像をタップするとちょっとしたコメントが見れます！</p>
+            </div>
             <div class='skills'>
                 <div class='cards' id='skill-cards'>
                     <div class='card'>
@@ -140,7 +152,7 @@
                 <div id='skill-detail'></div>
             </div>
 <!--========================== works  ==================================================== -->
-            <h2>WORKS</h2>
+            <h2 id='works'>WORKS</h2>
             <div class='works'>
             <!--========================== RISC  ==================================================== -->
                 <div class='work-card'>
@@ -150,7 +162,7 @@
                     </div>
                         <p>世界中のサイクリング危険スポットをシェアするサービスです。</p>
                         <a href='https://www.risc.website/'>RISC!!</a>
-                    <h4 id='RISC_h4'>+ 詳細を表示</h4>
+                    <button id='RISC_button' class='detail-button'>+ 詳細を表示</button>
                     <!--==========================when user click, under block will be shown==================================================== -->
                     <div id='RISC-detail'>
                         <article class='work-detail'>
@@ -165,14 +177,14 @@
                             <h6>これからの課題</h6>
                                 <ul>
                                     <li>テストコードが不十分な点。</li>
-                                    <li>投稿を削除するとき、確認ダイアログが実装されていない点。</li>
+                                    <li>Railsのバージョンが古い点(5.2)</li>
                                 </ul>
                             <h6>開発について</h6>
                                 <p><b>GitHubリポジトリ</b></p>
                                 <a href='https://github.com/maxkenkomoda/RISC' class='app-github'>こちら</a>
                                 <p><b>開発期間:</b> 約3ヶ月(現在も開発継続中)</p>
                                 <p><b>開発環境:</b> Mac OS Catalina, Editor: Vim</p>
-                                <p><b>使用技術:</b> HTML/CSS/Bootstrap/JavaScript/jQuery/Ruby/Ruby on Rails/MySQL/AWS(EC2にデプロイ)</p>
+                                <p class='used-tech'><b>使用技術:</b> HTML/CSS/Bootstrap/JavaScript/jQuery/Ruby/Ruby on Rails/MySQL/AWS(EC2にデプロイ)</p>
                         </article>
                     </div>
                 </div>
@@ -184,7 +196,7 @@
                         <p>自分の自己紹介サイト、つまりはこのサイトです。</p>
                     </div>
                         <a href='https://maxkenkomoda.github.io/'>Ken Komoda's portfolio</a>
-                    <h4 id='Portfolio_h4'>+ 詳細を表示</h4>
+                    <button id='Portfolio_button' class='detail-button'>+ 詳細を表示</button>
                     <!--==========================when user click, under block will be shown==================================================== -->
                     <div id='Portfolio_detail'>
                         <article class='work-detail'>
@@ -200,7 +212,7 @@
                                 <a href='https://github.com/maxkenkomoda/maxkenkomoda.github.io' class='app-github'>こちら</a>
                                 <p><b>開発期間:</b> 約5日</p>
                                 <p><b>開発環境:</b> Mac OS Catalina , Editor: Vim / Windows 10 (Windows Subsystem for Linux Ubuntu) , Editor: Vim </p>
-                                <p><b>使用技術:</b> HTML/CSS/JavaScript/GitHub Pagesにて公開</p>
+                                <p class='used-tech'><b>使用技術:</b> HTML/CSS/JavaScript/GitHub Pagesにて公開</p>
                         </article>
                     </div>
                 </div>
@@ -212,7 +224,7 @@
                     </div>
                         <p>失敗から学ぶをコンセプトにしたSNSサービスです。</p>
                         <a href='https://fehler-1.herokuapp.com/'>Fehler</a>
-                    <h4 id='Fehler_h4'>+ 詳細を表示</h4>
+                    <button id='Fehler_button' class='detail-button'>+ 詳細を表示</button>
                     <!--==========================when user click, under block will be shown==================================================== -->
                     <div id='Fehler_detail'>
                         <article class='work-detail'>
@@ -227,7 +239,7 @@
                                 <a href='https://github.com/maxkenkomoda/fehler-' class='app-github'>こちら</a>
                                 <p><b>開発期間:</b> 約2週間</p>
                                 <p><b>開発環境:</b> AWS Cloud9, Editor: Cloud9</p>
-                                <p><b>使用技術:</b> HTML/CSS/Bootstrap/Ruby/Ruby on Rails/MySQL/Heroku</p>
+                                <p class='used-tech'><b>使用技術:</b> HTML/CSS/Bootstrap/Ruby/Ruby on Rails/MySQL/Heroku</p>
                         </article>
                     </div>
                 </div>
@@ -239,12 +251,12 @@
                     </div>
                         <p>入力した複数の候補をランダムに1つだけ選択するアプリです。日々の選択が面倒なので作りました。</p>
                         <a href='https://random-chan.herokuapp.com/'>ランダムちゃん</a>
-                    <h4 id='Random_h4'>+ 詳細を表示</h4>
+                    <button id='Random_button' class='detail-button'>+ 詳細を表示</button>
                     <!--==========================when user click, under block will be shown==================================================== -->
                     <div id='Random_detail'>
                         <article class='work-detail'>
                             <h5>詳細</h5>
-                                <p>記念すべき初めて作成した簡単なアプリです。入力した複数の候補をランダムに1つだけ選択するアプリです。おぼえたてのRailsを使いたくて作りました。日々の選択が面倒なので作りました。</p>
+                                <p>記念すべき初めて作成した簡単なアプリです。入力した複数の候補をランダムに1つだけ選択するアプリです。日々の選択が面倒なので作りました。</p>
                             <h6>工夫した点</h6>
                                 <ul>
                                     <li>学習中だったRailsを使って、自分なりに周りの課題を解決するという視点で作った点</li>
@@ -254,10 +266,33 @@
                                 <a href='https://github.com/maxkenkomoda/RandomMaker' class='app-github'>こちら</a>
                                 <p><b>開発期間:</b> 約2日</p>
                                 <p><b>開発環境:</b> AWS Cloud9, Editor: Cloud9</p>
-                                <p><b>使用技術:</b> HTML/CSS/Bootstrap/Ruby/Ruby on Rails/MySQL/Heroku</p>
+                                <p class='used-tech'><b>使用技術:</b> HTML/CSS/Bootstrap/Ruby/Ruby on Rails/MySQL/Heroku</p>
                         </article>
                     </div>
                 </div>
+            </div>
+<!--========================== contacts ==================================================== -->
+            <h2 id='contact'>Contact / Links</h2>
+            <div class='contact'>
+                <p>ご興味を持っていただけましたらTwitterのDMよりご連絡ください。お待ちしております。</p>
+                <div class='contact-img'>
+                    <a href='https://twitter.com/hanako_092'><img src='./images/Twitter.png' alt='twitter' class='contacts'></a>
+                </div>
+                <p>その他Facebookのアカウントへのリンク、GitHubのリンク、個人的アウトプットノートのリンクはこちらになります。</p>
+                <div class='links'>
+                    <div class='contact-img'>
+                        <a href='https://www.facebook.com/max.komoda'><img src='./images/FB.png' alt='facebook' class='contacts'></a>
+                    </div>
+                    <div class='contact-img'>
+                        <a href='https://github.com/maxkenkomoda'><img src='./images/GitHub.png' alt='GitHub' class='contacts'></a>
+                    </div>
+                    <div class='contact-img'>
+                        <a href='https://scrapbox.io/roadracer1400-09818767/'><img src='./images/note.png' alt='scrapbox' class='contacts'></a>
+                    </div>
+                </div>
+            </div>
+            <div class='under-nav'>
+                <button class='inside-nav'><a href='#top'>^ トップへ戻る</a></button>
             </div>
         </div>
         <footer>
