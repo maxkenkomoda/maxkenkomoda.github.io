@@ -12,7 +12,7 @@
      | OS | Editor |
      ----|---- 
     | macOS Catalina | Vim |
-    Windows 10 (Windows Subsystem for Linux Ubuntu) | Vim |
+    | Windows 10 (Windows Subsystem for Linux Ubuntu) | Vim |
     
 ### 2. 本番環境について  
 GitHub Pagesを用いて公開しております。
