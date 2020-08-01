@@ -9,8 +9,9 @@
 ## 開発について  
 このWebサイトは私個人がすべてデザイン・記述を行いました。 
 ### 1. 開発環境は以下となります。</br>
-     | OS | Editor |
-     ----|---- 
+    
+   | OS | Editor |
+   ----|---- 
     | macOS Catalina | Vim |
     | Windows 10 (Windows Subsystem for Linux Ubuntu) | Vim |
     
