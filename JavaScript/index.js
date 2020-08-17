@@ -117,6 +117,11 @@ const skills = [
     message: 'ググりながらならSQL文を書けます。RailsではActive RecordでSQL文を弄る機会がありませんでしたが、、理解を深める為、生のSQL文をかけるように学習しています。',
   },
   {
+    id: 'Excel',
+    title: 'Excel',
+    message: 'VBAを用い、Microsoft Accessと連携させてデータの入出力・参照する簡単なアプリを作ったことがあります。ちなみに結合されたセルは大嫌いです。',
+  },
+  {
     id: 'AutoCAD',
     title: 'AutoCAD, 3DCAD',
     message: '簡単な部品なら2D,3Dどちらでも作図できます。現在の会社で、現場の作業効率を上げる為の部品を自分で設計し、3Dプリンターで制作しました。',
