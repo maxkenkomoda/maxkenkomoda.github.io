@@ -160,7 +160,7 @@ h2 {
 }
 
 p.card-body {
-    height: 200px;
+    height: auto;
 }
 
 .about-me-card article {
