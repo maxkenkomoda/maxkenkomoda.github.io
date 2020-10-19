@@ -31,14 +31,10 @@ a {
     text-decoration: none;
 }
 
-a:visited {
-    color: #333;
-}
-
 a:hover {
     color: #0000cd;
     font-weight: 700;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 header {
@@ -103,9 +99,6 @@ button.inside-nav a {
 button.inside-nav a:hover {
     font-weight: bold;
 }
-
-
-
 
 img.header {
     width: 100%;
@@ -278,7 +271,6 @@ p.year {
     font-size: 26px;
     font-weight: normal;
     transition: all 0.3s ease 0s;
-      
 }
 
 .detail-button:active {
@@ -290,8 +282,6 @@ p.year {
     background: #00FFFF;
     color: black;
 }
-
-
 
 h3.work-h3 {
     border-top: 1px solid  #808080;
@@ -309,6 +299,19 @@ img.work-images {
     width: 100%;
     height: auto;
     text-align: center;
+}
+
+a.app-link {
+  padding: 0 10px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(49, 170, 226) 50%);
+  background-position: 0 0;
+  background-size: 200% auto;
+  transition: .3s;
+}
+
+a.app-link:hover {
+  background-position: -100% 0;
+  color: #fff;
 }
 
 /* after click event detail css------------------------*/
