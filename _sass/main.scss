@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+// definition of breakpoints of Display
+$pc: 1024px; // PC
+$tablet: 680px; // tablets
+$mobile: 480px;  // mobile 
+$max: 100%;
+
+// functions
+@mixin pc-display {
+  @media (max-width: ($pc)){
+    @content;
+  }
+}
+
+@mixin tablet-display {
+  @media (max-width: ($tablet)){
+    @content;
+  }
+}
+
+@mixin mobile-display {
+  @media (max-width: ($mobile)){
+    @content;
+  }
+}
+
+//header-img
+.header-img {
+    width: $pc;
+}
+
