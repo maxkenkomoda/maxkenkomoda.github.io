@@ -1,0 +1,31 @@
+global:
+  name: Max Ken Komoda
+  top: Top
+  product: product
+  
+
+index:
+  title: Self Introduce
+  greeting: My name is Max Ken Komoda
+  likes: I like creating hardware or software with technologies.
+  hobbies: I love cycling and Alps in Europe.
+  
+  career: CAREER
+  university: Ritsumeikan University -Faculty of Business Administration
+  1st_company: Odawara Engineering Co.Ltd,  -Sales Depaartment
+  2nd_company: Metroly - Apprentice
+
+  skills_descrioption: Skills that I used in past.
+  
+
+product:
+  technology: Technology That I used
+
+  title: My Product
+  portfolio_title: Max Ken Portfolio site
+  portfolio_description: This is my Portfolio
+  portfolio_tech: HTML/CSS/JS/Jekyll
+  
+  RISC_title: RISC
+  RISC_description: Web Application for Cyclist. Users can share dangerous place for cycling.
+  RISC_tech: Ruby on Rails/AWS/MySQL/JS/Google Maps API

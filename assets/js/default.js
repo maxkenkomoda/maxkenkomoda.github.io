@@ -1,6 +1,7 @@
 //--skills javascript-----------------------------------------------------
 //define  description  element
 const detail = document.getElementById('skill-detail');
+console.log("hoge");
 
 
 
