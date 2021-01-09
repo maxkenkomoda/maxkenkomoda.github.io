@@ -4,4 +4,21 @@ namespace: /
 permalink: /
 ---
 
-<h1>hoge</h1>
+<div class="self-introduce">
+  <h1>{% t global.name %}</h1>
+  <h2>{% t index.title %}</h2>
+  <p>{% t index.greeting %}</p>
+  <p>{% t index.likes %}</p>
+  <p>{% t index.hobbies %}</p>
+</div>
+<div class="histroy">
+  <h2>{% t index.career %}</h2>
+  <p>2014-2018 {% t index.university %}</p> 
+  <p>2019-2020 {% t index.1st_company %}</p> 
+  <p>2021- NOW {% t index.2nd_company %}</p> 
+</div>
+<div class=-"skills">
+  <h2>SKILLS</h2>
+  <p>{% t index.skills_descrioption %}</p>
+</div>
+

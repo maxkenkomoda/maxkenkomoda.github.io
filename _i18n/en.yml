@@ -6,14 +6,14 @@ global:
 
 index:
   title: Self Introduce
-  greeting: My name is
-  name: Max Ken Komoda
+  greeting: My name is Max Ken Komoda
   likes: I like creating hardware or software with technologies.
   hobbies: I love cycling and Alps in Europe.
   
-  
-  1st_company: Odawara Engineering Co.Ltd, 
-  2st_company: Metroly 
+  career: CAREER
+  university: Ritsumeikan University -Faculty of Business Administration
+  1st_company: Odawara Engineering Co.Ltd,  -Sales Depaartment
+  2nd_company: Metroly - Apprentice
 
   skills_descrioption: Skills that I used in past.
   

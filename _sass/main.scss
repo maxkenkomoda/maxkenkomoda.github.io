@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 // definition of breakpoints of Display
-$pc: 1024px; // PC
-$tablet: 680px; // tablets
-$mobile: 480px;  // mobile 
+$pc: 1440px; // PC
+$mobile: 375px;
 $max: 100%;
 
+li {
+  list-style: none;
+}
 // functions
 @mixin pc-display {
   @media (max-width: ($pc)){
@@ -30,3 +32,10 @@ $max: 100%;
     width: $pc;
 }
 
+ul.navbar {
+
+  li {
+    float: left;
+    width: 80px;
+  }
+}

@@ -5,13 +5,14 @@ global:
 
 index:
   title: 自己紹介
-  greeting: と申します。 
-  name: 薦田　顕
+  greeting: 薦田顕と申します。 
   likes: ハードソフト関係なくなにかしらの技術を使ってなにかを作るのが大好きです。
   hobbies: 自転車、アルプスは舐めるぐらい愛してます。
   
-  1st_company: 株式会社小田原エンジニアリング
-  2st_company: 株式会社メトロリー 
+  career: 経歴 
+  university: 立命館大学  経営学部
+  1st_company: 株式会社小田原エンジニアリング　営業部
+  2nd_company: 株式会社メトロリー  見習い 
 
 
   skills_descrioption: 過去に扱ったことのある技術です。
