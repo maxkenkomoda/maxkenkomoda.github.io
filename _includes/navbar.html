@@ -1,14 +1,22 @@
-  <ul class="navbar">
-    <li><a href="{% tl / %}">{% t global.top %}</a></li>
-    <li><a href="{% tl product %}">{% t global.product %}</a></li>
-    <li>
-      {% if site.lang == "ja" %}
-        {% capture link1 %}{{ site.baseurl_root }}/en{{ page.url }}{% endcapture %}
-        <a href="{{ link1 }}" >english</a>
-      {% elsif site.lang == "en" %}
-        {% capture link2 %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
-        <a href="{{ link2 }}" >日本語</a>
-      {% endif %}
-    </li>
-  </ul> 
-
+<header class="navigation">
+  <nav class="navbar navbar-expand-sm navbar-light mt-5 mr-3 ml-3 mb-5">
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-bar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav-bar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="/" class="nav-link nav-a">{% t global.top %}</a></li>
+        <li class="nav-item"><a href="/" class="nav-link nav-a">{% t global.product %}</a></li>
+        <li class="nav-item">
+          {% if site.lang == "ja" %}
+            {% capture link1 %}{{ site.baseurl_root }}/en{{ page.url }}{% endcapture %}
+            <a href="{{ link1 }}" class="nav-link nav-a">English</a>
+          {% elsif site.lang == "en" %}
+            {% capture link2 %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+            <a href="{{ link2 }}" class="nav-link nav-a">日本語</a>
+          {% endif %}
+        </li>
+       </ul>
+    </div>
+  </nav>
+</header>

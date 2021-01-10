@@ -2,8 +2,7 @@
 
 // definition of breakpoints of Display
 $pc: 1440px; // PC
-$mobile: 375px;
-$max: 100%;
+$mobile: 570px;
 
 li {
   list-style: none;
@@ -15,21 +14,19 @@ li {
   }
 }
 
-@mixin tablet-display {
-  @media (max-width: ($tablet)){
-    @content;
-  }
-}
 
 @mixin mobile-display {
-  @media (max-width: ($mobile)){
+  @media only screen and (max-width: ($mobile)){
     @content;
   }
 }
 
 //header-img
 .header-img {
-    width: $pc;
+  width: $pc;
+  @include mobile-display {
+    width: 100px;
+  }
 }
 
 ul.navbar {
