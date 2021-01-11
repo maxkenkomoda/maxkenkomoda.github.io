@@ -1,0 +1,7 @@
+// font function
+@mixin font-face($name, $path) {
+  @font-face {
+    font-family: quote($name);
+    src: url(quote($path)) format(quote("truetype"));
+  }
+}
