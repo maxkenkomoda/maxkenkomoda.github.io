@@ -1,41 +1,128 @@
 @charset "UTF-8";
+//import font mixin function
+@import './mixin/fonts';
+
+//import masque fonts
+@include font-face("masque", "../assets/font/MASQUE__.ttf"); //masque
+
 
 // definition of breakpoints of Display
 $pc: 1440px; // PC
-$mobile: 375px;
-$max: 100%;
+$mobile: 570px;
 
 li {
   list-style: none;
 }
 // functions
-@mixin pc-display {
-  @media (max-width: ($pc)){
+@mixin mobile-display {
+  @media only screen and (max-width: ($mobile)){
     @content;
   }
 }
 
 @mixin tablet-display {
-  @media (max-width: ($tablet)){
+  @media only screen and (max-width: ($pc)){
     @content;
   }
 }
-
-@mixin mobile-display {
-  @media (max-width: ($mobile)){
-    @content;
-  }
-}
-
-//header-img
-.header-img {
-    width: $pc;
-}
-
-ul.navbar {
-
+//Overall settings
+* {
   li {
-    float: left;
-    width: 80px;
+    list-style: none;
+    a {
+    text-decoration: none;
+    }
+  } 
+}
+
+.container.canvas {
+  margin: 0 auto;
+}
+
+
+.navigation {
+  font-family: masque;
+  z-index: -3;
+  background-color: rgba(245, 245, 245, 0.5);
+  #humberger-menu {
+    border-color: rgba(0, 0, 0, 0);
+  }
+  #navigation-bar {
+    margin: 20px;
+    @include mobile-display {
+      margin: 0;
+    }
+    .navbar-nav {
+      margin: 0 0 0 auto;
+      .nav-item {
+        float: right;
+        .nav-link.nav-a {
+          font-size: 15px;
+        }
+      .lang {
+        padding-left: 10px;
+      }
+      }
+    }
+  }
+}
+
+//header-background image
+.top-img {
+  background-image: url(/assets/img/TOP.jpeg);
+  position: absolute;
+  height: 1080px;
+  z-index: -4;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+  top: -90px;
+  left: 0px;
+  right: 0px;
+  @include mobile-display {
+    width: 100%;
+    top: -10px;
+  }
+}
+.profile {
+  margin: auto;
+  .self-img {
+    width: 40%;
+    margin-top: auto;
+    background-image: url(/assets/img/portfolio.png);
+    position: absolute;
+    height: 40%;
+    z-index: -2;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    left: 0px;
+    right: 0px;
+  }
+}
+.title {
+  h1 {
+    text-align: center;
+    margin: 50px 0 0 auto;
+    font-family: masque;
+    font-size: 80px;
+    color: #fffff0;
+	  text-shadow: 0 0.05em 0.08em rgba(0,0,0,0.7);
+  @include tablet-display {
+    font-size: 60px;
+    margin: 100px 0 0 auto;
+  }
+    @include mobile-display {
+      font-size: 30px;
+      margin: 50px 0 0 auto;
+    }
+  }
+}
+
+.self-introduce {
+  margin: 250px auto;
+  h2 {
+    font-family: masque;
+
   }
 }
