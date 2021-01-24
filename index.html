@@ -9,23 +9,13 @@ permalink: /
   <h1>MAX KEN KOMODA</h1>
 </div>
 <div class="profile">
-  <div class="self-img">
-  </div>
+  <img src='/assets/img/portfolio.png' alt='my-img'>
 </div>
 
-<div class="self-introduce">
-  <h2>ABOUT ME</h2>
-  <h3>{% t index.title %}</h3>
-  <p>{% t index.greeting %}</p>
-  <p>{% t index.likes %}</p>
-  <p>{% t index.hobbies %}</p>
-</div>
-<div class="histroy">
-  <h2>{% t index.career %}</h2>
-  <p>2014-2018 {% t index.university %}</p> 
-  <p>2019-2020 {% t index.1st_company %}</p> 
-  <p>2021- NOW {% t index.2nd_company %}</p> 
-</div>
+{% include self_intro.html %}
+{% include self_history.html %}
+
+
 <div class=-"skills">
   <h2>SKILLS</h2>
   <p>{% t index.skills_descrioption %}</p>

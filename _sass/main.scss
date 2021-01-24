@@ -4,27 +4,11 @@
 
 //import masque fonts
 @include font-face("masque", "../assets/font/MASQUE__.ttf"); //masque
-
+@import './mixin/display';
 
 // definition of breakpoints of Display
-$pc: 1440px; // PC
-$mobile: 570px;
 
-li {
-  list-style: none;
-}
 // functions
-@mixin mobile-display {
-  @media only screen and (max-width: ($mobile)){
-    @content;
-  }
-}
-
-@mixin tablet-display {
-  @media only screen and (max-width: ($pc)){
-    @content;
-  }
-}
 //Overall settings
 * {
   li {
@@ -40,32 +24,7 @@ li {
 }
 
 
-.navigation {
-  font-family: masque;
-  z-index: -3;
-  background-color: rgba(245, 245, 245, 0.5);
-  #humberger-menu {
-    border-color: rgba(0, 0, 0, 0);
-  }
-  #navigation-bar {
-    margin: 20px;
-    @include mobile-display {
-      margin: 0;
-    }
-    .navbar-nav {
-      margin: 0 0 0 auto;
-      .nav-item {
-        float: right;
-        .nav-link.nav-a {
-          font-size: 15px;
-        }
-      .lang {
-        padding-left: 10px;
-      }
-      }
-    }
-  }
-}
+@import './headder';
 
 //header-background image
 .top-img {
