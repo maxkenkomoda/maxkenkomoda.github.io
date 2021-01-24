@@ -1,9 +1,6 @@
 @font-face {
   font-family: "masque";
   src: url("../assets/font/MASQUE__.ttf") format("truetype"); }
-li {
-  list-style: none; }
-
 * li {
   list-style: none; }
   * li a {
