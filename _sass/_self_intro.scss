@@ -1,0 +1,33 @@
+.title {
+  h1 {
+    text-align: center;
+    margin: auto;
+    font-family: masque;
+    font-size: 80px;
+    color: #fffff0;
+	  text-shadow: 0 0.05em 0.08em rgba(0,0,0,0.7);
+  @include small-display {
+    font-size: 50px;
+    margin: 25px 0 0 auto;
+  }
+  @include tablet-display {
+    font-size: 40px;
+    margin: 20px 0 0 auto;
+  }
+    @include mobile-display {
+      font-size: 30px;
+      margin: 15px 0 0 auto;
+    }
+  }
+}
+.profile {
+  margin: auto;
+}
+
+.self-introduce {
+  margin: 250px auto;
+  h2 {
+    font-family: masque;
+
+  }
+}
