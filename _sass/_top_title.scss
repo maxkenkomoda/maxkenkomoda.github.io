@@ -1,0 +1,40 @@
+$top-height: calc(100vw / 1.8);
+
+.top-title {
+  height: $top-height;
+}
+
+.top-img {
+  background-image: url(/assets/img/TOP.jpeg);
+  height: $top-height;
+  width: 100%;
+  z-index: -4;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include mobile-display {
+    width: 100%;
+  }
+}
+
+.top-title {
+  h1 {
+    text-align: center;
+    font-family: masque;
+    font-size: 80px;
+    color: #fffff0;
+	  text-shadow: 0 0.05em 0.08em rgba(0,0,0,0.7);
+  @include small-display {
+    font-size: 50px;
+  }
+  @include tablet-display {
+    font-size: 40px;
+  }
+    @include mobile-display {
+      font-size: 25px;
+    }
+  }
+}

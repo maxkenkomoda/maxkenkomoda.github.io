@@ -5,3 +5,45 @@
     src: url(quote($path)) format(quote("truetype"));
   }
 }
+
+//import masque fonts
+@include font-face("masque", "/assets/font/MASQUE__.ttf");
+
+@mixin h2 {
+  font-family: 'masque';
+  @include small-display {
+    font-size: 40px;
+  }
+  @include tablet-display {
+    font-size: 30px;
+  }
+  @include mobile-display {
+    font-size: 25px;
+  }
+}
+
+@mixin h3 {
+  font-family: 'masque';
+  @include small-display {
+    font-size: 35px;
+  }
+  @include tablet-display {
+    font-size: 25px;
+  }
+  @include mobile-display {
+    font-size: 20px;
+  }
+}
+
+@mixin p {
+  font-family: 'Franklin Gothic Medium';
+  @include small-display {
+    font-size: 18px;
+  }
+  @include tablet-display {
+    font-size: 16px;
+  }
+  @include mobile-display {
+    font-size: 14px;
+  }
+}
