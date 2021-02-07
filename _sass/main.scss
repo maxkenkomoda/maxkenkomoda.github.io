@@ -4,8 +4,6 @@
 @import './mixin/media_query';
 
 //import masque fonts
-@include font-face("masque", "../assets/font/MASQUE__.ttf"); //masque
-@import './mixin/display';
 @include font-face("masque", "/assets/font/MASQUE__.ttf"); //masque
 
 
@@ -30,4 +28,8 @@
 
 .container.canvas {
   margin: 0 auto;
+}
+
+h1 {
+  color: blue;
 }
