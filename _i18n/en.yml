@@ -5,14 +5,22 @@ global:
 
 index:
   title: Self Introduce
-  greeting: My name is Max Ken Komoda
-  likes: I like creating hardware or software with technologies.
-  hobbies: I love cycling and Alps in Europe.
+  greeting: My name is Max Ken Komoda <br/> like creating hardware or software with technologies. <br/> I love cycling and Alps in Europe.
 
   career: CAREER
   university: Ritsumeikan University -Faculty of Business Administration
   1st_company: Odawara Engineering Co.Ltd,  -Sales Department
-  2nd_company: Metroly - Apprentice
+  2nd_company: Metroly - Associate Software Engineer
+
+  #Like
+  Alpen: Alps
+  Setouchi: Seto Island Sea
+  Bicycle: Bicycle
+  PC: PC
+  Alpen_detail: I love Alps. I did bicycle tour around Germany, Austria, and Italy.
+  Setouchi_detail: Seto Island Sea is the place I grew up. Here is my best place in Japan
+  Bicycle_detail: I love bicycle. I have 5 bicycles now.
+  PC_detail: I build my own PC.
 
   skills_description: Skills that I used in past.
 

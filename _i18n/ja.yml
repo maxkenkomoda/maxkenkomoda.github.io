@@ -5,16 +5,22 @@ global:
 
 index:
   title: 自己紹介
-  greeting: 薦田顕と申します。
-  likes: ハードソフト関係なくなにかしらの技術を使ってなにかを作るのが大好きです。
-  hobbies: 自転車、アルプスは舐めるぐらい愛してます。
+  greeting: 薦田顕と申します。<br/> ハードソフト関係なくなにかしらの技術を使ってなにかを作るのが大好きです。<br/> 自転車、アルプスは舐めるぐらい愛してます。
 
   career: 経歴
   university: 立命館大学  経営学部
   1st_company: 株式会社小田原エンジニアリング　営業部
-  2nd_company: 株式会社メトロリー  見習い
+  2nd_company: 株式会社メトロリー  見習いエンジニア
 
-
+  #Like
+  Alpen: アルプス山脈
+  Setouchi: 瀬戸内海
+  Bicycle: 自転車
+  PC: パソコン
+  Alpen_detail: ドイツからオーストリア、イタリアにかけて自転車で旅をするのが趣味です。
+  Setouchi_detail: 瀬戸内海はふるさとです。日本では一番好きな地域です。
+  Bicycle_detail: 自転車は舐めるぐらい愛してます。現在ロード2台、クロス1台、折りたたみ1台の5台体制です。
+  PC_detail: パソコン自作します。
   skills_description: 過去に扱ったことのある技術です。
 
 product:
