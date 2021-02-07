@@ -1,0 +1,37 @@
+$XL: 1999px;
+$L: 991px;
+$M: 767px;
+$S: 575px;
+
+
+
+//media query function
+//When you want to use these function, just code like ex. `@include tablet-display { width: 100ox; }`
+
+// 1999px~
+@mixin normal-display {
+  @media only screen and (max-width: ($XL)){
+    @content;
+  }
+}
+
+// 991px~
+@mixin small-display {
+  @media only screen and (max-width: ($L)){
+    @content;
+  }
+}
+
+// 767px~
+@mixin tablet-display {
+  @media only screen and (max-width: ($M)){
+    @content;
+  }
+}
+
+// 575px~
+@mixin mobile-display {
+  @media only screen and (max-width: ($S)){
+    @content;
+  }
+}

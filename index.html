@@ -3,21 +3,14 @@ layout: default
 namespace: /
 permalink: /
 ---
-<div class="top-img">
-</div>
-<div class="title">
+
+<div class='top-title'>
+  <div class="top-img">
+  </div>
   <h1>MAX KEN KOMODA</h1>
-</div>
-<div class="profile">
-  <img src='/assets/img/portfolio.png' alt='my-img'>
 </div>
 
 {% include self_intro.html %}
-{% include self_history.html %}
-
-
-<div class=-"skills">
-  <h2>SKILLS</h2>
-  <p>{% t index.skills_descrioption %}</p>
-</div>
-
+{% include self_likes.html %}
+{% include history.html %}
+{% include skills.html %}
