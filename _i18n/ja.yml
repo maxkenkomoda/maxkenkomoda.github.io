@@ -5,17 +5,17 @@ global:
 
 index:
   title: 自己紹介
-  greeting: 薦田顕と申します。 
+  greeting: 薦田顕と申します。
   likes: ハードソフト関係なくなにかしらの技術を使ってなにかを作るのが大好きです。
   hobbies: 自転車、アルプスは舐めるぐらい愛してます。
-  
-  career: 経歴 
+
+  career: 経歴
   university: 立命館大学  経営学部
   1st_company: 株式会社小田原エンジニアリング　営業部
-  2nd_company: 株式会社メトロリー  見習い 
+  2nd_company: 株式会社メトロリー  見習い
 
 
-  skills_descrioption: 過去に扱ったことのある技術です。
+  skills_description: 過去に扱ったことのある技術です。
 
 product:
   technology: 使用した技術
@@ -28,4 +28,3 @@ product:
   RISC_title: RISC
   RISC_description: 自転車乗る人達が自転車で走る上で危険な場所を地図上でシェアできるサービスです。
   RISC_tech: Ruby on Rails/AWS/MySQL/JS/Google Maps API
-  
