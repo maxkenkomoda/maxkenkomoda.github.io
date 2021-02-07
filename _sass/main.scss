@@ -6,7 +6,6 @@
 //import masque fonts
 @include font-face("masque", "/assets/font/MASQUE__.ttf"); //masque
 
-
 @import 'header';
 @import 'self_intro';
 @import 'self_likes';
@@ -14,24 +13,8 @@
 @import 'skills';
 
 // definition of breakpoints of Display
-$pc: 1440px; // PC
-$mobile: 570px;
 
-li {
-  list-style: none;
-}
 // functions
-@mixin mobile-display {
-  @media only screen and (max-width: ($mobile)){
-    @content;
-  }
-}
-
-@mixin tablet-display {
-  @media only screen and (max-width: ($pc)){
-    @content;
-  }
-}
 //Overall settings
 * {
   li {
@@ -44,18 +27,4 @@ li {
 
 .container.canvas {
   margin: 0 auto;
-}
-
-
-//header-background image
-.profile {
-  margin: auto;
-}
-
-.self-introduce {
-  margin: 250px auto;
-  h2 {
-    font-family: masque;
-
-  }
 }
