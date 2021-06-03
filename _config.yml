@@ -32,8 +32,9 @@ plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
 
-languages: ['en', 'ja']
 exclude_from_localizations: ["images", "css"]
+languages: ["en", "ja"] #Add Language. Default is English by Max
+default_locale_in_subfolder: true
 
 include:
   - _sass
