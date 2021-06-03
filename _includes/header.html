@@ -1,21 +1,18 @@
 <header class="navigation">
   <nav class="navbar navbar-expand-sm navbar-light" id="navigation-bar">
-    <a class="navbar-brand" href="#">TOP</a>
+    <a class="navbar-brand" href="/">TOP</a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-bar" id="humberger-menu">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="nav-bar">
       <ul class="navbar-nav">
-        <!-- <li class="nav-item"><a href="/" class="nav-link nav-a">ABOUT ME</a></li> -->
-        <!-- <li class="nav-item"><a href="/" class="nav-link nav-a">CAREER</a></li>
-        <li class="nav-item"><a href="/" class="nav-link nav-a">SKILLS</a></li>
-        <li class="nav-item"><a href="/" class="nav-link nav-a">WORKS</a></li> -->
+        <li class="nav-item"><a href="{% tl product %}" class="nav-link nav-a">product</a></li>
         <li class="nav-item lang">
           {% if site.lang == "ja" %}
             {% capture link1 %}{{ site.baseurl_root }}/en{{ page.url }}{% endcapture %}
             <a href="{{ link1 }}" class="nav-link nav-a">ENGLISH</a>
           {% elsif site.lang == "en" %}
-            {% capture link2 %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+            {% capture link2 %}{{ site.baseurl_root }}/ja{{ page.url }}{% endcapture %}
             <a href="{{ link2 }}" class="nav-link nav-a">JAPANESE</a>
           {% endif %}
         </li>

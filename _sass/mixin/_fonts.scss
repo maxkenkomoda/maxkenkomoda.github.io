@@ -7,7 +7,7 @@
 }
 
 //import masque fonts
-@include font-face("masque", "/assets/font/MASQUE__.ttf");
+@include font-face("masque", "../font/MASQUE__.ttf");
 
 @mixin h2 {
   font-family: 'masque';
