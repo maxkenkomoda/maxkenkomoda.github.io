@@ -32,7 +32,7 @@ plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
 
-languages: ['ja', 'en']
+languages: ['en', 'ja']
 exclude_from_localizations: ["images", "css"]
 
 include:
