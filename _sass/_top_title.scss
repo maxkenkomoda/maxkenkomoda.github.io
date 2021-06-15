@@ -1,11 +1,12 @@
+$top-height: calc(100vw / 1.8);
+
 .top-title {
-	width: 100%;
-	height: auto;
+	height: $top-height;
 }
 
 .top-img {
 	background-image: url(../img/TOP.jpeg);
-	height: auto;
+	height: $top-height;
 	width: 100%;
 	z-index: -4;
 	background-repeat: no-repeat;
