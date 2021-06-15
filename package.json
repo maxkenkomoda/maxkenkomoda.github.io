@@ -1,0 +1,13 @@
+{
+  "name": "maxkenkomoda.github.io",
+  "version": "1.0.0",
+  "description": "## Ken Komoda's Portfolio ![Portfolio](https://user-images.githubusercontent.com/58941838/89102800-6629bf80-d447-11ea-924a-fe5546daaf02.gif)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jekyll": "JEKYLL_ENV=local bundle exec jekyll serve --host 0.0.0.0 --livereload"
+
+  },
+  "author": "",
+  "license": "ISC"
+}

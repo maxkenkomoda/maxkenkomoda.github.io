@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  nginx-learning:
+  max-profile:
     build:
       context: .
       dockerfile: Dockerfile
