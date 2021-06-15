@@ -6,6 +6,10 @@ COPY Gemfile Gemfile.lock ./
 RUN bundle
 
 COPY ./ ./
+
+ARG JEKYLL_ENV
+ENV JEKYLL_ENV ${JEKYLL_ENV:-local-docker}
+
 RUN bundle exec jekyll build
 
 FROM nginx:alpine as server
@@ -16,4 +20,3 @@ ENV HOST 0.0.0.0
 EXPOSE 8080
 COPY nginx.conf /etc/nginx/conf.d/configfile.template
 CMD sh -c "envsubst '\$PORT' < /etc/nginx/conf.d/configfile.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
-

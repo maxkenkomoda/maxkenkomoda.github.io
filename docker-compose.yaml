@@ -1,10 +1,10 @@
 version: "3"
 
 services:
-  nginx-learning:
+  max-profile:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: dockerfile
     environment:
       - PORT=8080
       - HOST=0.0.0.0
